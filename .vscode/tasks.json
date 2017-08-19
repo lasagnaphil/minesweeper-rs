@@ -1,0 +1,34 @@
+{
+    "version": "0.1.0",
+    "command": "cargo",
+    "isShellCommand": true,
+    "showOutput": "always",
+    "suppressTaskName": true,
+    "options": {
+        "env": {
+            "RUST_BACKTRACE": "1"
+        }
+    },
+    "tasks": [
+        {
+            "taskName": "cargo build",
+            "args": [
+                "build"
+            ]
+        },
+        {
+            "taskName": "cargo run",
+            "args": [
+                "run"
+            ],
+            "isBuildCommand": true
+        },
+        {
+            "taskName": "cargo test",
+            "args": [
+                "test"
+            ],
+            "isTestCommand": true
+        }
+    ]
+}

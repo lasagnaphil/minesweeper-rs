@@ -1,0 +1,10 @@
+[package]
+name = "minesweeper"
+version = "0.1.0"
+authors = ["Phillip Chang <lasagnaphil@snu.ac.kr>"]
+
+[dependencies]
+rand = "0.3"
+itertools = "0.6.1"
+termion = "1"
+clap = "2"
