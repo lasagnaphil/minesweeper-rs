@@ -300,7 +300,6 @@ fn main() {
         std::io::stdout().into_raw_mode().unwrap());
 
     let mut tile_array = TileArray::new(gameConfig);
-    tile_array.set_tile_type(1, 3, TileType::Safe(5));
 
     tile_array.setup();
     tile_array.render(&mut stdout);
